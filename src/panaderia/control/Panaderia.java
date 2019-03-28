@@ -1,6 +1,6 @@
 package panaderia.control;
 
-import panaderia.Pan;
+import panaderia.Panadero;
 /**
  * Clase de control
  */
@@ -8,7 +8,8 @@ public class Panaderia {
 	
 	public static void main(String[] args)
 	{
-		Pan panDia = new Pan();
+		Panadero panadero = new Panadero();
+		panadero.hacerPan();
 	
 	}
 
