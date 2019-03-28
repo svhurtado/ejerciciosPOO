@@ -7,6 +7,9 @@ package panaderia;
  */
 public class Panadero {
 	
+	public Panadero() {
+	}
+
 	public Pan hacerPan()
 	{
 		Pan panFresco = new Pan();
